@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Xperia AOD Overlay Test</string>
+    <string name="service_name">Xperia AOD Hello World test</string>
+    <string name="service_description">Shows a transparent Hello Wssorld test overlay when the screen turns off. Does not read screen content or intercept touches.</string>
+    <string name="service_summary">Displays a simple test message over the screen while it is off, if the device permits overlays during Ambient display.</string>
+</resources>
