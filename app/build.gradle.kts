@@ -5,11 +5,12 @@ plugins {
 
 android {
     namespace = "com.redstoneinvente.xperiaaod"
-    compileSdk = 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.redstoneinvente.xperiaaod"
         minSdk = 26
+        // Keep the runtime behavior opt-in level unchanged; only compileSdk is raised.
         targetSdk = 35
         versionCode = 1
         versionName = "0.1.0"
