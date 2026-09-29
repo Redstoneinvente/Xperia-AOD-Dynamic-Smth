@@ -12,9 +12,13 @@ This prototype uses an Android `AccessibilityService` and its `TYPE_ACCESSIBILIT
 
 ## Build
 
-1. Open this repository in Android Studio (Giraffe or newer).
-2. Let Gradle sync. The project uses Android Gradle Plugin 8.7.3 and Kotlin 2.0.21.
-3. Run the `app` configuration on an Xperia with Ambient display enabled.
+1. Open this repository in Android Studio (Panda or newer, for Android API 37 support).
+2. Use Gradle 9.3.1 or newer.
+3. Let Gradle sync. The project uses Android Gradle Plugin 9.1.1, Kotlin 2.2.10, and compileSdk 37.
+4. Install Android SDK Platform 37 if Android Studio prompts for it.
+5. Run the `app` configuration on an Xperia with Ambient display enabled.
+
+The app's `targetSdk` remains 35; raising `compileSdk` does not opt the app into new runtime behavior by itself.
 
 ## Try it
 
